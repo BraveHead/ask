@@ -1,6 +1,4 @@
-/**
- * Created by plter on 2016/11/24.
- */
+
 
 const Status = require("../../../source/Status");
 const md5 = require("md5-js");

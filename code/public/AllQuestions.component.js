@@ -1,6 +1,3 @@
-/**
- * Created by plter on 2016/11/25.
- */
 
 angular.module("ask").component("allQuestions", {
     templateUrl: "AllQuestions.template.htm",
@@ -13,7 +10,6 @@ angular.module("ask").component("allQuestions", {
                         var question = result.data.result[i];
                         question.readableTime = ucai.formatDate(new Date(question.time));
                     }
-
                     $scope.questions = result.data.result;
                     break;
                 default:

@@ -1,6 +1,4 @@
-/**
- * Created by plter on 2016/11/26.
- */
+
 
 const {checkQuestionIdInput} = require("../precheck");
 const Status = require("../../../source/Status");

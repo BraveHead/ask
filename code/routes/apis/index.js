@@ -1,6 +1,4 @@
-/**
- * Created by plter on 2016/11/22.
- */
+
 const Status = require("../../source/Status");
 const express = require("express");
 const router = express.Router();
